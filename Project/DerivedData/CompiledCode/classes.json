@@ -1,0 +1,12 @@
+﻿{
+	"sieve_KB": {
+		"functions": {
+			"__init__": 2147483638,
+			"runSieve": 2147483637,
+			"runSieveArray": 2147483636,
+			"listPrimes": 2147483635,
+			"countPrimes": 2147483634
+		},
+		"constructorID": 2147483639
+	}
+}

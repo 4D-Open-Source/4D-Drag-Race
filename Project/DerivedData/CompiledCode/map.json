@@ -1,0 +1,127 @@
+﻿{
+	"map": [
+		{
+			"id": 2147483647,
+			"path": "Sources/Methods/sieve_KC.4dm"
+		},
+		{
+			"id": 2147483646,
+			"path": "Sources/Methods/LB_init_obj.4dm"
+		},
+		{
+			"id": 2147483645,
+			"path": "Sources/Methods/sieve_drag_race.4dm"
+		},
+		{
+			"id": 2147483644,
+			"path": "Sources/Methods/UI_process.4dm"
+		},
+		{
+			"id": 2147483643,
+			"path": "Sources/Methods/sieve_JPR.4dm"
+		},
+		{
+			"id": 2147483642,
+			"path": "Sources/Methods/sieve_JC_blob.4dm"
+		},
+		{
+			"id": 2147483641,
+			"path": "Sources/Methods/recieve_results.4dm"
+		},
+		{
+			"id": 2147483640,
+			"path": "Sources/Classes/sieve_KB.4dm"
+		},
+		{
+			"id": 2147483639,
+			"path": "Sources/Classes/sieve_KB.4dm",
+			"function": "#",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				}
+			]
+		},
+		{
+			"id": 2147483638,
+			"path": "Sources/Classes/sieve_KB.4dm",
+			"function": "__init__",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				},
+				{
+					"parameterName": "limit",
+					"parameterType": 283
+				}
+			]
+		},
+		{
+			"id": 2147483637,
+			"path": "Sources/Classes/sieve_KB.4dm",
+			"function": "runSieve",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				},
+				{
+					"parameterName": "n",
+					"parameterType": 283
+				}
+			]
+		},
+		{
+			"id": 2147483636,
+			"path": "Sources/Classes/sieve_KB.4dm",
+			"function": "runSieveArray",
+			"parameters": [
+				{
+					"parameterName": "",
+					"parameterType": 0
+				},
+				{
+					"parameterName": "n",
+					"parameterType": 283
+				}
+			]
+		},
+		{
+			"id": 2147483635,
+			"path": "Sources/Classes/sieve_KB.4dm",
+			"function": "listPrimes",
+			"parameters": [
+				{
+					"parameterName": "primes",
+					"parameterType": 1488
+				}
+			]
+		},
+		{
+			"id": 2147483634,
+			"path": "Sources/Classes/sieve_KB.4dm",
+			"function": "countPrimes",
+			"parameters": [
+				{
+					"parameterName": "n",
+					"parameterType": 283
+				}
+			]
+		},
+		{
+			"id": 2147483633,
+			"path": "Sources/DatabaseMethods/onStartup.4dm"
+		},
+		{
+			"id": 2147483632,
+			"path": "Sources/Forms/input_dlog/method.4dm"
+		},
+		{
+			"id": 2147483631,
+			"path": "Sources/Methods/sieve_KC_2.4dm"
+		}
+	],
+	"arch64": true
+}

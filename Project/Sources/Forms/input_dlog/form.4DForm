@@ -1,0 +1,256 @@
+﻿{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 0,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {
+				"Rectangle": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 1158,
+					"height": 163,
+					"fill": "#0000cd",
+					"stroke": "transparent",
+					"sizingX": "grow"
+				},
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 120,
+					"left": 0,
+					"width": 598,
+					"height": 7,
+					"fill": "#dc143c",
+					"stroke": "transparent",
+					"sizingX": "grow"
+				},
+				"Text": {
+					"type": "text",
+					"text": "4D Drag Race",
+					"top": -17,
+					"left": 62,
+					"width": 851,
+					"height": 132,
+					"fontSize": 128,
+					"fontWeight": "bold",
+					"fontStyle": "italic",
+					"stroke": "#FFFFFF"
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 134,
+					"left": 0,
+					"width": 878,
+					"height": 7,
+					"fill": "#dc143c",
+					"stroke": "transparent",
+					"sizingX": "grow"
+				},
+				"Rectangle3": {
+					"type": "rectangle",
+					"top": 149,
+					"left": 0,
+					"width": 1118,
+					"height": 7,
+					"fill": "#fffacd",
+					"stroke": "#c0c0c0",
+					"sizingX": "grow"
+				},
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 38,
+					"height": 163,
+					"fill": "#dc143c",
+					"stroke": "transparent",
+					"sizingX": "fixed"
+				},
+				"Rectangle5": {
+					"type": "rectangle",
+					"top": 168,
+					"left": 0,
+					"width": 1158,
+					"height": 63,
+					"fill": "#dc143c",
+					"stroke": "transparent",
+					"sizingX": "grow"
+				},
+				"Text1": {
+					"type": "text",
+					"text": "Sieve of Eratosthenes",
+					"top": 159,
+					"left": 22,
+					"width": 1123,
+					"height": 72,
+					"fontSize": 64,
+					"fontWeight": "bold",
+					"fontStyle": "normal",
+					"stroke": "#FFFFFF",
+					"textAlign": "center"
+				},
+				"Text2": {
+					"type": "text",
+					"text": "Enter the max number to check for primes:",
+					"top": 238,
+					"left": 17,
+					"width": 489,
+					"height": 31,
+					"fontSize": 24,
+					"stroke": "#808080",
+					"fontWeight": "bold"
+				},
+				"Input": {
+					"type": "input",
+					"left": 505,
+					"top": 240,
+					"width": 294,
+					"height": 17,
+					"dataSourceTypeHint": "number",
+					"dataSource": "Form:C1466.n",
+					"fontSize": 24,
+					"fontWeight": "bold",
+					"min": 1,
+					"defaultValue": "1000000",
+					"textAlign": "left"
+				},
+				"pic_1": {
+					"type": "picture",
+					"top": 282,
+					"left": 116,
+					"width": 892,
+					"height": 415,
+					"picture": "/RESOURCES/tenor.gif",
+					"pictureFormat": "scaled",
+					"visibility": "hidden"
+				},
+				"btn_go": {
+					"type": "button",
+					"text": "GO!",
+					"top": 235,
+					"left": 805,
+					"width": 74,
+					"height": 37,
+					"events": [
+						"onClick"
+					],
+					"fontWeight": "bold",
+					"fontSize": 24,
+					"stroke": "#008000"
+				},
+				"results_LB": {
+					"type": "listbox",
+					"left": 122,
+					"top": 283,
+					"width": 882,
+					"height": 412,
+					"events": [
+						"onClick",
+						"onHeaderClick",
+						"onDataChange",
+						"onSelectionChange"
+					],
+					"listboxType": "collection",
+					"dataSource": "Form:C1466.results_LB.data",
+					"headerHeight": "2em",
+					"hideFocusRing": true,
+					"scrollbarHorizontal": "hidden",
+					"hideExtraBlankRows": true,
+					"currentItemSource": "Form:C1466.results_LB.curItem",
+					"currentItemPositionSource": "Form:C1466.results_LB.pos",
+					"selectedItemsSource": "Form:C1466.results_LB.selected",
+					"visibility": "hidden",
+					"columns": [
+						{
+							"header": {
+								"text": "Method",
+								"name": "Header1",
+								"fontWeight": "bold",
+								"fontSize": 18,
+								"stroke": "#808080"
+							},
+							"name": "Column1",
+							"footer": {
+								"name": "Footer1"
+							},
+							"fontSize": 18,
+							"dataSource": "This:C1470.method",
+							"width": 565
+						},
+						{
+							"header": {
+								"name": "Header2",
+								"text": "Ms",
+								"fontWeight": "bold",
+								"fontSize": 18,
+								"stroke": "#808080"
+							},
+							"name": "Column2",
+							"footer": {
+								"name": "Footer2"
+							},
+							"fontSize": 18,
+							"dataSource": "This:C1470.ms"
+						},
+						{
+							"header": {
+								"name": "Header3",
+								"text": "n Primes",
+								"fontWeight": "bold",
+								"fontSize": 18,
+								"stroke": "#808080"
+							},
+							"name": "Column3",
+							"footer": {
+								"name": "Footer3"
+							},
+							"fontSize": 18,
+							"dataSource": "This:C1470.nPrimes"
+						}
+					]
+				}
+			}
+		},
+		{
+			"objects": {}
+		}
+	],
+	"geometryStamp": 525,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"method": "method.4dm"
+}
